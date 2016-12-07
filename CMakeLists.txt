@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 2.8.3)
 project(pal_vision_segmentation)
 
 find_package(catkin REQUIRED COMPONENTS
-  stereo_image_proc
   cv_bridge
   dynamic_reconfigure
   geometry_msgs
